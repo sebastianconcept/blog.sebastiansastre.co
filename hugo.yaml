@@ -1,0 +1,61 @@
+# baseURL: https://example.org/
+baseURL: https://blog.sebastiansastre.co
+languageCode: en-us
+title: Sebastian Sastre's Blog
+theme: ["PaperMod"]
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+menu:
+  main:
+    # - identifier: categories
+    #   name: Categories
+    #   url: /categories/
+    #   weight: 10
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 30
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+params:
+  ShowBreadCrumbs: true
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
+  # comments: true
+  homeInfoParams:
+    Title: Hello stranger
+    Content: "welcom stoog"
+  socialIcons:
+    - name: facebook
+      url: "https://facebook.com"
+    - name: x
+      url: "https://x.com"
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    # limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    keys: ["title", "permalink", "summary", "content"]
