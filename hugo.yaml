@@ -41,14 +41,11 @@ params:
   ShowPostNavLinks: true
   ShowCodeCopyButtons: true
   # comments: true
-  homeInfoParams:
-    Title: Hello stranger
-    Content: "welcom stoog"
   socialIcons:
-    - name: facebook
-      url: "https://facebook.com"
-    - name: x
-      url: "https://x.com"
+    - name: github
+      url: "https://github.com/sebastianconcept"
+    - name: linkedIn
+      url: "https://www.linkedin.com/in/sebastiansastre/"
   fuseOpts:
     isCaseSensitive: false
     shouldSort: true
