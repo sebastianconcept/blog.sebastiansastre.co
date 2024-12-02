@@ -4,12 +4,6 @@ languageCode: en-us
 title: Sebastian Sastre's Blog
 theme: ["PaperMod"]
 
-outputs:
-  home:
-    - HTML
-    - RSS
-    - JSON
-
 menu:
   main:
     # - identifier: categories
@@ -28,6 +22,11 @@ menu:
       name: Archives
       url: /archives/
       weight: 30
+
+module:
+  hugoVersion:
+    extended: true
+    min: '0.111.0'
 
 outputs:
   home:
