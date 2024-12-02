@@ -1,7 +1,7 @@
 # baseURL: https://example.org/
-baseURL: https://blog.sebastiansastre.co
+baseURL: "https://blog.sebastiansastre.co"
 languageCode: en-us
-title: Sebastian Sastre's Blog
+title: "Sebastian Sastre's Blog"
 theme: ["PaperMod"]
 
 menu:
@@ -26,7 +26,7 @@ menu:
 module:
   hugoVersion:
     extended: true
-    min: '0.111.0'
+    min: "0.111.0"
 
 outputs:
   home:
