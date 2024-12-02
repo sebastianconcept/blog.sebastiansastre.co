@@ -1,5 +1,5 @@
 # baseURL: https://example.org/
-baseURL: "https://blog.sebastiansastre.co"
+baseURL:
 languageCode: en-us
 title: "Sebastian Sastre's Blog"
 theme: ["PaperMod"]
