@@ -3,6 +3,7 @@ baseURL: https://blog.sebastiansastre.co/
 languageCode: en-us
 title: "Sebastian Sastre's Blog"
 theme: ["PaperMod"]
+ignoreErrors: ["error-remote-getjson"]
 
 menu:
   main:
