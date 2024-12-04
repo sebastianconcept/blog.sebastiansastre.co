@@ -42,7 +42,7 @@
   </div>
   {{- end }}
 
-  <footer class="post-footer">
+  <footer class="post-footer" style="margin-bottom: 2em">
     {{- $tags := .Language.Params.Taxonomies.tag | default "tags" }}
     <ul class="post-tags">
       {{- range ($.GetTerms $tags) }}
